@@ -2,7 +2,11 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var quotes = require('./quotes.json');
 var app = express();
-app.listen(3000,()=> console.log('listening at port 3000'));
+let port = process.env.PORT || 3000;
+
+app.listen(port,()=> {
+    console.log(`listening at port ${port}`);
+})
 app.use(express.static('public'));
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
