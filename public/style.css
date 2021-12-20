@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Montserrat:wght@200&display=swap');
+
+:root{
+    --pink : rgb(247, 142, 203);
+}
+
+button{
+    margin: 10px
+}
+body{
+    background-color:black;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color:white; */
+    text-align:center;
+    color:white;
+    margin: 10px;
+    line-height: 1.5;
+  }
+blockquote{
+    border-radius:5px ;
+    padding: 10px;
+    letter-spacing:2px;
+    white-space: pre-wrap;
+    /* background-color:rgba(255, 255, 255, 0); */
+    color:rgb(0, 255, 179);
+}
+code{
+    background-color:aliceblue;
+    color:black;
+    padding: 5px;
+    margin: 5px;
+}
+.neon{
+    -webkit-box-shadow:0px 0px 139px 8px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 139px 8px #ffffff;
+    box-shadow: 0px 0px 139px 8px rgb(255, 255, 255);
+}
+
+a:before{
+    color :rgb(247, 142, 203);
+}
+
+a:visited{
+    color: var(--pink);
+}
+
+a{
+    text-decoration:none;
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+}

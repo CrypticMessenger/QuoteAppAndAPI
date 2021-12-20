@@ -1,0 +1,21 @@
+{
+  "name": "motivationapi",
+  "version": "1.0.0",
+  "description": "An Api Which keeps you motivated to code in a unique way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Motivation",
+    "Code",
+    "LoveForCode",
+    "CodeWithPurpose"
+  ],
+  "author": "CrypticMessenger, (@worldofivo on instagram)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  }
+}
