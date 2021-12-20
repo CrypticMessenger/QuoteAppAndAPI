@@ -12,7 +12,7 @@
     "LoveForCode",
     "CodeWithPurpose"
   ],
-  "author": "CrypticMessenger, (@worldofivo on instagram)",
+  "author": "CrypticMessenger",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.1",
